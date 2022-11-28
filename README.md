@@ -10,6 +10,12 @@ This repo is not meant to educate.  There are plenty of resources for that.  It 
 - Code a simple demonstration in any language you are most comfortable with.
 - Dont' focus on wallets.  The blockchain and mining are what is key.
 
+## Blockchain Definition
+
+Take from [Synopsis](https://www.synopsys.com/glossary/what-is-blockchain.html)
+
+A blockchain is “a distributed database that maintains a continuously growing list of ordered records, called blocks.” These blocks “are linked using cryptography. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data. A blockchain is a decentralized, distributed and public digital ledger that is used to record transactions across many computers so that the record cannot be altered retroactively without the alteration of all subsequent blocks and the consensus of the network."
+
 ## Reading List
 - [Satoshi Nakamoto - original bitcoin paper.](https://bitcoin.org/bitcoin.pdf)  This is worth reading but it was very technical and left me with lots of questions that were easier to understand elsewhere.  I got more out of this after learning how bitcoin works from Dante Sblendorio, thank you.
 - [Dante Sblendorio's Active State Code.](https://www.activestate.com/blog/how-to-build-a-blockchain-in-python/) I copied this code nearly verbatim in my `blockchain.py` file.  For me, the best way to learn something is to code it.  It forces me to pay attention to the details. Dante's explanations are clear.  You don't need to use the flask web server.  I added some more blocks in my code.
